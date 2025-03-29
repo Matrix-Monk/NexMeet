@@ -6,7 +6,10 @@ import { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "NexMeet",
-  description: "A workspace for your team, powered by Stream Chat and Clerk.",
+  description: "The Next-Gen Meeting Room",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
 };
 
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
