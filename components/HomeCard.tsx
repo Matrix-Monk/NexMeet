@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 interface HomeCardProps {
   className?: string;
@@ -27,13 +27,15 @@ const HomeCard = ({
       )}
       onClick={handleClick}
     >
-      <div className="flex-center bg-white/25 backdrop-blur-sm p-6 size-12 rounded-[10px]">
+      <div className="flex items-center justify-center bg-white/25 backdrop-blur-sm p-6 w-18 rounded-[10px]    ">
         <Image src={img} alt="meeting" width={27} height={27} />
       </div>
 
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold">{title}</h1>
         <p className="text-lg font-normal">{description}</p>
+      </div>
+      <div>
       </div>
     </section>
   );
