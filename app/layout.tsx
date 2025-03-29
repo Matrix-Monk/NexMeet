@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/NexMeet_logo.png",
           },
           variables: {
             colorText: "#fff",
@@ -40,7 +40,7 @@ export default function RootLayout({
       >
         <body className={`${inter.className} bg-dark-2`}>
           <Toaster />
-          {children} 
+          {children}
         </body>
       </ClerkProvider>
     </html>
